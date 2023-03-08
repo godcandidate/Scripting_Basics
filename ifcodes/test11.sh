@@ -1,8 +1,9 @@
 #!/bin/bash
-#usibg double square brackets 
-#
+#using double square brackets 
+
 user='Eddie de Stone'
-#
+
+#if user begins with E
 if [[ $user == E* ]]
 then
 	echo "Welcome $user, i miss you"
