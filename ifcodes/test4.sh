@@ -1,5 +1,6 @@
 #!/bin/bash
 #testing if with test numeric conditions 
+
 var=4
 
 if [ $var -eq 3 ]
