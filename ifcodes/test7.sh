@@ -1,27 +1,32 @@
 #!/bin/bash
-# Check if either a directory or file exists
-#
+#Check if either a directory or file exists
+
+#random dirextory
 location=/sdcard/Eddy
 file_name="filex.txt"
-#
+
+#Directory exists
 if [ -e $location ]
-then #Directory does exist
+then
  	echo "OK on the $location directory."
  	echo "Now checking on the file, $file_name."
- #
- if [ -e $location/$file_name ]
- then #File does exist
- 	echo "OK on the $file_name"
- 	echo "Updating Current Date..."
- 	date >> $location/$file_name
-	ls -l $location/$file_name
- #
- else #File does not exist
-	 echo "The file $file_name  does not exist"
- 	echo "Nothing to update"
- fi
-#
-else #Directory does not exist
- echo "The $location directory does not exist."
- echo "Nothing to update"
+
+	#File does exist
+	if [ -e $location/$file_name ]
+	then
+ 		echo "OK on the $file_name"
+ 		echo "Updating Current Date..."
+ 		date >> $location/$file_name
+		ls -l $location/$file_name
+
+	#File does not exist
+	else
+		echo "The file $file_name  does not exist"
+ 		echo "Nothing to update"
+	fi
+
+#Directory does not exist
+else
+	echo "The $location directory does not exist."
+	echo "Nothing to update"
 fi
