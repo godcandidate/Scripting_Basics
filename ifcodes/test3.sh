@@ -1,5 +1,6 @@
 #!/bin/bash
-#if... then 
+#if... then
+#Executing the else statemet
 var=6
 
 if var == 9
