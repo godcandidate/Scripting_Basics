@@ -1,6 +1,6 @@
 #!/bin/bash
-#if then statements
-if pwd 
-then 
+#prints the current working directory
+if pwd
+then
 	echo "it worked"
 fi
