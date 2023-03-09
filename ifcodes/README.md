@@ -14,13 +14,14 @@ This describes the concept of if statements in bash scripts
 #
 * test5.sh - Test string comparison conditions with if else 
 #
-* test6.sh - Comparing directory conditions with if else 
+* test6.sh - Compares directory conditions with if else 
 #
-* test7.sh - Checking if directory and file exist using if else 
+* test7.sh - Checks if directory and file exist using if else 
 #
-* test8.sh - Check if it's a file using if else 
+* test8.sh - Checks if it's a file using if else 
 #
 * test9.sh - Reads a file if it is readable using if else
 #
 * test10.sh - using double brackets on if else conditions 
-
+#
+* test13.sh - using double square brackets on if else conditions
